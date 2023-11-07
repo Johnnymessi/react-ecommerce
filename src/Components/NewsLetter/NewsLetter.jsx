@@ -1,17 +1,17 @@
-import React from 'react'
-import './NewsLetter'
+import React from 'react';
+import './NewsLetter.css'; // Bạn đã quên thêm phần mở rộng ".css" ở đây
 
 const NewsLetter = () => {
     return (
         <div className='newsletter'>
-            <h1>Get Exclusive Offers On Your Email</h1>
-            <p>Subscribe to our newletter and stay updated</p>
+            <h1>Nhận Ưu Đãi Độc Quyền Trên Email Của Bạn</h1>
+            <p>Đăng ký theo dõi bản tin của chúng tôi và cập nhật thông tin</p>
             <div>
-                <input type="email" placeholder='Your Email Id' />
-                <button>Subscribe</button>
+                <input type="email" placeholder='Địa chỉ Email của bạn' />
+                <button>Đăng ký</button>
             </div>
         </div>
     )
 }
 
-export default NewsLetter
+export default NewsLetter;

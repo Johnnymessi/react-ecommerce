@@ -7,7 +7,7 @@ const Popular = () => {
     return (
         <div className='popular'>
 
-            <h1>POPULAR IN WOMEN</h1>
+            <h1>Phổ biến dành cho nữ</h1>
 
             <hr />
 
